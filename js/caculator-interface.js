@@ -7,10 +7,10 @@ import { Calculator } from './../js/calculator.js';
       let ageInYear = $('#ageSeconds').val();
       let newCalculator = new Calculator();
       let output = newCalculator.ageInSeconds(ageInYear);
-      $('#solution-1').text(output + " seconds");
+      $('#solution-1').text(output + " second's");
     });
   });
-  //
+  // Two dates in seconds
   $(function() {
     $('#twoDatesSeconds').submit(function(event) {
       event.preventDefault();
@@ -26,6 +26,16 @@ import { Calculator } from './../js/calculator.js';
 
       let newCalculator = new Calculator();
       let output = newCalculator.twoDatesSeconds(date2, date1);
-      $('#solution-2').text(output + " seconds");
+      $('#solution-2').text(output + " second's");
     });
   });
+  //years on mercury
+  $(function() {
+    $('#y-on-m').submit(function(event) {
+      event.preventDefault();
+      let ageInYear = $('#mercuryAge').val();
+      let newCalculator = new Calculator();
+      let output = newCalculator.yearOnMercury(ageInYear);
+      $('#solution-3').text(output + " year's old");
+      });
+    });

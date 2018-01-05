@@ -15,7 +15,7 @@ _This web app will take user entered data such as age or a time span to calculat
 |----|----|----|  
 | A user enters their age can convert it into seconds | 19 years | 599,184,000 Seconds |
 | A user enters two dates and can determine the difference in seconds between the two  |January 1, 2018 - January 2, 2018 | 86400 seconds |
-| A user enters their age in human years and it's calculated to Mercury years | 19 Earth years | 79 Mercurian years|
+| A user enters their age in human years and it's calculated to Mercury years | 19 Earth years | 78 Mercurian years|
 | A user enters their age in human years and it's calculated to Venus years | 19 Earth years  | 20 Venusian years|
 | A user enters their age in human years and it's calculated to Mars years | 19 Earth years  | 10 Martian years|
 | A user enters their age in human years and it's calculated to Jupiter years| 19 Earth years | 1 Jovian Years|

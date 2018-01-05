@@ -14,4 +14,9 @@ describe('CalculatorTests', function() {
     expect(calculator.twoDatesSeconds(date2,date1)).toEqual(86400);
   });
 
+  it('should calculate the age of someone into Mercurian years', function() {
+    let calculator = new Calculator();
+    expect(calculator.yearOnMercury(19)).toEqual(78);
+  });
+
 });
