@@ -8,17 +8,193 @@
    <title>Super Galactic age Calculator</title>
  </head>
  <body>
-   <div class="container">
-       <h1>Super Galactic age Calculator</h1>
-       <h2>This is your age in seconds:</h2>
-       <form id="y-to-s">
-         <div class="form-group">
-           <label for="ageSeconds">Enter your age:</label>
-           <input id="ageSeconds" type="number">
-           <button class="btn-success" type="submit">Submit</button>
-         </div>
-       </form>
-       <ul id="solution"></ul>
-     </div>
+  <div class="container">
+    <h1>Super Galactic age Calculator</h1>
+    <div class="row">
+      <div class="col-md-6">
+        <h2>This is your age in seconds:</h2>
+        <form id="y-to-s">
+          <div class="form-group">
+            <label for="ageSeconds">Enter your age:</label>
+            <input id="ageSeconds" type="number" placeholder="Enter your age">
+            <br>
+            <button class="btn btn-success" type="submit">Submit</button>
+          </div>
+        </form>
+      </div>
+      <div class="col-md-6 solution">
+        <ul id="solution-1"></ul>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-9">
+        <h2>This is the amount of time in seconds between two dates:</h2>
+        <form id="twoDatesSeconds">
+          <div class="form-group">
+            <div class="col-md-4">
+              <label for="yearOne">Enter a year:</label>
+              <input type="number" id="yearOne" placeholder="Enter a year">
+              <label for="monthOne">Enter a month:</label>
+              <select id="monthOne">
+                <option value="0">January</option>
+                <option value="1">February</option>
+                <option value="2">March</option>
+                <option value="3">April</option>
+                <option value="4">May</option>
+                <option value="5">June</option>
+                <option value="6">July</option>
+                <option value="7">August</option>
+                <option value="8">September</option>
+                <option value="9">October</option>
+                <option value="10">November</option>
+                <option value="11">December</option>
+               </select>
+               <label for="dayOne">Enter a day:</label>
+               <input id="dayOne" type="number" placeholder="Enter a day">
+            </div>
+            <div class="col-md-1"></div>
+            <div class="col-md-4">
+              <label for="yearTwo">Enter a year:</label>
+              <input type="number" id="yearTwo" placeholder="Enter a year">
+              <label for="monthTwo">Enter a month:</label>
+              <select id="monthTwo">
+                <option value="0">January</option>
+                <option value="1">February</option>
+                <option value="2">March</option>
+                <option value="3">April</option>
+                <option value="4">May</option>
+                <option value="5">June</option>
+                <option value="6">July</option>
+                <option value="7">August</option>
+                <option value="8">September</option>
+                <option value="9">October</option>
+                <option value="10">November</option>
+                <option value="11">December</option>
+               </select>
+               <label for="dayTwo">Enter a day:</label>
+               <input id="dayTwo" type="number" placeholder="Enter a day">
+               <br>
+               <button type="submit" class="btn btn-success amount-butt">Submit</button>
+            </div>
+          </div>
+        </form>
+      </div>
+      <div class="col-md-3 solution">
+        <ul id="solution2"></ul>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-6">
+        <h2>How old are you on Mercury:</h2>
+        <form id="y-on-m">
+          <div class="form-group">
+            <label for="mercuryAge">Enter your age:</label>
+            <input type="number" id="mercuryAge" placeholder="Enter your age">
+            <br>
+            <button type="submit" class="btn btn-success">Submit</button>
+          </div>
+        </form>
+      </div>
+      <div class="col-md-6 solution">
+        <ul id="solution3"></ul>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-6">
+        <h2>How old are you on Venus:</h2>
+        <form id="y-on-v">
+          <div class="form-group">
+            <label for="venusAge">Enter your age:</label>
+            <input type="number" id="venusAge" placeholder="Enter your age">
+            <br>
+            <button type="submit" class="btn btn-success">Submit</button>
+          </div>
+        </form>
+      </div>
+      <div class="col-md-6 solution">
+        <ul id="solution4"></ul>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-6">
+        <h2>How old are you on Mars:</h2>
+        <form id="y-on-mars">
+          <div class="form-group">
+            <label for="marsAge">Enter your age:</label>
+            <input type="number" id="marsAge" placeholder="Enter your age">
+            <br>
+            <button type="submit" class="btn btn-success">Submit</button>
+          </div>
+        </form>
+      </div>
+      <div class="col-md-6 solution">
+        <ul id="solution5"></ul>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-6">
+        <h2>Find how old you are on Jupiter:</h2>
+        <form id="years-on-j">
+          <div class="form-group">
+            <label for="jupiterAge">Enter your age:</label>
+            <input id="jupiterAge" type="number" placeholder="Enter your age">
+            <br>
+            <button class="btn btn-success" type="submit">Submit</button>
+          </div>
+        </form>
+      </div>
+      <div class="col-md-6 solution">
+        <ul id="solution6"></ul>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-9">
+      <h2>How many years you have left to live depending on the below factors:</h2>
+      <form id="y-left-alive">
+        <div class="form-group">
+          <div class="col-md-4">
+            <label for="earthAge">Enter your age:</label>
+            <input id="earthAge" type="number" placeholder="Enter your age">
+          </div>
+            <div class="col-md-1"></div>
+          <div class="col-md-4">
+            <label for="sex">Enter your sex:</label>
+            <select id="sex">
+              <option value="male">Male</option>
+              <option value="female">Female</option>
+            </select>
+            <label for="region">Enter your region:</label>
+            <select id="region">
+              <option value="north America">North America</option>
+              <option value="south America">Latin America</option>
+              <option value="Asia">Asia</option>
+              <option value="africa">africa</option>
+              <option value="europe">europe</option>
+              <option value="austrailia">austrailia</option>
+            </select>
+            <label for="planet">Enter a planet:</label>
+            <select id="planet">
+              <option value="Mercury">Mercury</option>
+              <option value="Venus">Venus</option>
+              <option value="Mars">Mars</option>
+              <option value="Jupiter">Jupiter</option>
+            </select>
+            <br>
+            <button class="btn btn-success" type="submit">Submit</button>
+          </div>
+        </div>
+      </form>
+    </div>
+    <div class="col-md-3 solution">
+      <ul id="solution7"></ul>
+    </div>
+
+  </div>
  </body>
 </html>
