@@ -6,6 +6,7 @@ var del = require('del');
 var gulp = require('gulp');
 var jshint = require('gulp-jshint');
 var moment = require('moment');
+var source = require('vinyl-source-stream');
 var uglify = require('gulp-uglify');
 var utilities = require('gulp-util');
 var lib = require('bower-files')({
