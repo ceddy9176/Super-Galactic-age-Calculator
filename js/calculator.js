@@ -6,7 +6,7 @@ export class Calculator {
   }
 
   ageInSeconds(age) {
-    let yearInSeconds = (age * 3156000);
+    let yearInSeconds = (age * 31536000);
     return yearInSeconds;
   }
 
