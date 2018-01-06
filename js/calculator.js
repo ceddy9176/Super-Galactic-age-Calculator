@@ -37,7 +37,7 @@ export class Calculator {
   return jupiterAge;
 }
 
-yearsOnPlanet(age,sex,continent,planet) {
+yearOnPlanet(age,sex,continent,planet) {
 
 //Mercury Life Expectancy
 
@@ -46,7 +46,7 @@ yearsOnPlanet(age,sex,continent,planet) {
     const lifeExpect = 76;
     if (age <= lifeExpect) {
       let leftOnEarth = (lifeExpect - age);
-      return (Math.floor(leftOnEarth / .241) + "more years to live on" + planet);
+      return (Math.floor(leftOnEarth / .241) + " more years to live on " + planet);
     } else {
       return "your dead, try to be younger next time.";
     }
@@ -54,7 +54,7 @@ yearsOnPlanet(age,sex,continent,planet) {
     const lifeExpect = 81;
     if (age <= lifeExpect) {
       let leftOnEarth = (lifeExpect - age);
-      return (Math.floor(leftOnEarth / .241) + "more years to live on" + planet);
+      return (Math.floor(leftOnEarth / .241) + " more years to live on " + planet);
     } else {
       return "your dead, try to be younger next time.";
     }
@@ -65,7 +65,7 @@ yearsOnPlanet(age,sex,continent,planet) {
     const lifeExpect = 73;
     if (age <= lifeExpect) {
       let leftOnEarth = (lifeExpect - age);
-      return (Math.floor(leftOnEarth / .241) + "more years to live on" + planet);
+      return (Math.floor(leftOnEarth / .241) + " more years to live on " + planet);
     } else {
       return "your dead, try to be younger next time.";
     }
@@ -73,7 +73,7 @@ yearsOnPlanet(age,sex,continent,planet) {
     const lifeExpect = 79;
     if (age <= lifeExpect) {
       let leftOnEarth = (lifeExpect - age);
-      return (Math.floor(leftOnEarth / .241) + "more years to live on" + planet);
+      return (Math.floor(leftOnEarth / .241) + " more years to live on " + planet);
     } else {
       return "your dead, try to be younger next time.";
     }
@@ -84,7 +84,7 @@ yearsOnPlanet(age,sex,continent,planet) {
     const lifeExpect = 71;
     if (age <= lifeExpect) {
       let leftOnEarth = (lifeExpect - age);
-      return (Math.floor(leftOnEarth / .241) + "more years to live on" + planet);
+      return (Math.floor(leftOnEarth / .241) + " more years to live on " + planet);
     } else {
       return "your dead, try to be younger next time.";
     }
@@ -92,7 +92,7 @@ yearsOnPlanet(age,sex,continent,planet) {
     const lifeExpect = 74;
     if (age <= lifeExpect) {
       let leftOnEarth = (lifeExpect - age);
-      return (Math.floor(leftOnEarth / .241) + "more years to live on" + planet);
+      return (Math.floor(leftOnEarth / .241) + " more years to live on " + planet);
     } else {
       return "your dead, try to be younger next time.";
     }
@@ -103,7 +103,7 @@ yearsOnPlanet(age,sex,continent,planet) {
     const lifeExpect = 61;
     if (age <= lifeExpect) {
       let leftOnEarth = (lifeExpect - age);
-      return (Math.floor(leftOnEarth / .241) + "more years to live on" + planet);
+      return (Math.floor(leftOnEarth / .241) + " more years to live on " + planet);
     } else {
       return "your dead, try to be younger next time.";
     }
@@ -111,7 +111,7 @@ yearsOnPlanet(age,sex,continent,planet) {
     const lifeExpect = 64;
     if (age <= lifeExpect) {
       let leftOnEarth = (lifeExpect - age);
-      return (Math.floor(leftOnEarth / .241) + "more years to live on" + planet);
+      return (Math.floor(leftOnEarth / .241) + " more years to live on " + planet);
     } else {
       return "your dead, try to be younger next time.";
     }
@@ -122,7 +122,7 @@ yearsOnPlanet(age,sex,continent,planet) {
     const lifeExpect = 75;
     if (age <= lifeExpect) {
       let leftOnEarth = (lifeExpect - age);
-      return (Math.floor(leftOnEarth / .241) + "more years to live on" + planet);
+      return (Math.floor(leftOnEarth / .241) + " more years to live on " + planet);
     } else {
       return "your dead, try to be younger next time.";
     }
@@ -130,7 +130,7 @@ yearsOnPlanet(age,sex,continent,planet) {
     const lifeExpect = 81;
     if (age <= lifeExpect) {
       let leftOnEarth = (lifeExpect - age);
-      return (Math.floor(leftOnEarth / .241) + "more years to live on" + planet);
+      return (Math.floor(leftOnEarth / .241) + " more years to live on " + planet);
     } else {
       return "your dead, try to be younger next time.";
     }
@@ -141,7 +141,7 @@ yearsOnPlanet(age,sex,continent,planet) {
     const lifeExpect = 75;
     if (age <= lifeExpect) {
       let leftOnEarth = (lifeExpect - age);
-      return (Math.floor(leftOnEarth / .241) + "more years to live on" + planet);
+      return (Math.floor(leftOnEarth / .241) + " more years to live on " + planet);
     } else {
       return "your dead, try to be younger next time.";
     }
@@ -149,7 +149,7 @@ yearsOnPlanet(age,sex,continent,planet) {
     const lifeExpect = 79;
     if (age <= lifeExpect) {
       let leftOnEarth = (lifeExpect - age);
-      return (Math.floor(leftOnEarth / .241) + "more years to live on" + planet);
+      return (Math.floor(leftOnEarth / .241) + " more years to live on " + planet);
     } else {
       return "your dead, try to be younger next time.";
     }
@@ -161,7 +161,7 @@ yearsOnPlanet(age,sex,continent,planet) {
     const lifeExpect = 76;
     if (age <= lifeExpect) {
       let leftOnEarth = (lifeExpect - age);
-      return (Math.floor(leftOnEarth / .615) + "more years to live on" + planet);
+      return (Math.floor(leftOnEarth / .615) + " more years to live on " + planet);
     } else {
       return "your dead, try to be younger next time.";
     }
@@ -169,7 +169,7 @@ yearsOnPlanet(age,sex,continent,planet) {
     const lifeExpect = 81;
     if (age <= lifeExpect) {
       let leftOnEarth = (lifeExpect - age);
-      return (Math.floor(leftOnEarth / .615) + "more years to live on" + planet);
+      return (Math.floor(leftOnEarth / .615) + " more years to live on " + planet);
     } else {
       return "your dead, try to be younger next time.";
     }
@@ -180,7 +180,7 @@ yearsOnPlanet(age,sex,continent,planet) {
     const lifeExpect = 73;
     if (age <= lifeExpect) {
       let leftOnEarth = (lifeExpect - age);
-      return (Math.floor(leftOnEarth / .615) + "more years to live on" + planet);
+      return (Math.floor(leftOnEarth / .615) + " more years to live on " + planet);
     } else {
       return "your dead, try to be younger next time.";
     }
@@ -188,7 +188,7 @@ yearsOnPlanet(age,sex,continent,planet) {
     const lifeExpect = 79;
     if (age <= lifeExpect) {
       let leftOnEarth = (lifeExpect - age);
-      return (Math.floor(leftOnEarth / .615) + "more years to live on" + planet);
+      return (Math.floor(leftOnEarth / .615) + " more years to live on " + planet);
     } else {
       return "your dead, try to be younger next time.";
     }
@@ -199,7 +199,7 @@ yearsOnPlanet(age,sex,continent,planet) {
     const lifeExpect = 71;
     if (age <= lifeExpect) {
       let leftOnEarth = (lifeExpect - age);
-      return (Math.floor(leftOnEarth / .615) + "more years to live on" + planet);
+      return (Math.floor(leftOnEarth / .615) + " more years to live on " + planet);
     } else {
       return "your dead, try to be younger next time.";
     }
@@ -207,7 +207,7 @@ yearsOnPlanet(age,sex,continent,planet) {
     const lifeExpect = 74;
     if (age <= lifeExpect) {
       let leftOnEarth = (lifeExpect - age);
-      return (Math.floor(leftOnEarth / .615) + "more years to live on" + planet);
+      return (Math.floor(leftOnEarth / .615) + " more years to live on " + planet);
     } else {
       return "your dead, try to be younger next time.";
     }
@@ -218,7 +218,7 @@ yearsOnPlanet(age,sex,continent,planet) {
     const lifeExpect = 61;
     if (age <= lifeExpect) {
       let leftOnEarth = (lifeExpect - age);
-      return (Math.floor(leftOnEarth / .615) + "more years to live on" + planet);
+      return (Math.floor(leftOnEarth / .615) + " more years to live on " + planet);
     } else {
       return "your dead, try to be younger next time.";
     }
@@ -226,7 +226,7 @@ yearsOnPlanet(age,sex,continent,planet) {
     const lifeExpect = 64;
     if (age <= lifeExpect) {
       let leftOnEarth = (lifeExpect - age);
-      return (Math.floor(leftOnEarth / .615) + "more years to live on" + planet);
+      return (Math.floor(leftOnEarth / .615) + " more years to live on " + planet);
     } else {
       return "your dead, try to be younger next time.";
     }
@@ -237,7 +237,7 @@ yearsOnPlanet(age,sex,continent,planet) {
     const lifeExpect = 75;
     if (age <= lifeExpect) {
       let leftOnEarth = (lifeExpect - age);
-      return (Math.floor(leftOnEarth / .615) + "more years to live on" + planet);
+      return (Math.floor(leftOnEarth / .615) + " more years to live on " + planet);
     } else {
       return "your dead, try to be younger next time.";
     }
@@ -245,7 +245,7 @@ yearsOnPlanet(age,sex,continent,planet) {
     const lifeExpect = 81;
     if (age <= lifeExpect) {
       let leftOnEarth = (lifeExpect - age);
-      return (Math.floor(leftOnEarth / .615) + "more years to live on" + planet);
+      return (Math.floor(leftOnEarth / .615) + " more years to live on " + planet);
     } else {
       return "your dead, try to be younger next time.";
     }
@@ -256,7 +256,7 @@ yearsOnPlanet(age,sex,continent,planet) {
     const lifeExpect = 75;
     if (age <= lifeExpect) {
       let leftOnEarth = (lifeExpect - age);
-      return (Math.floor(leftOnEarth / .615) + "more years to live on" + planet);
+      return (Math.floor(leftOnEarth / .615) + " more years to live on " + planet);
     } else {
       return "your dead, try to be younger next time.";
     }
@@ -264,7 +264,7 @@ yearsOnPlanet(age,sex,continent,planet) {
     const lifeExpect = 79;
     if (age <= lifeExpect) {
       let leftOnEarth = (lifeExpect - age);
-      return (Math.floor(leftOnEarth / .615) + "more years to live on" + planet);
+      return (Math.floor(leftOnEarth / .615) + " more years to live on " + planet);
     } else {
       return "your dead, try to be younger next time.";
     }
@@ -276,7 +276,7 @@ yearsOnPlanet(age,sex,continent,planet) {
     const lifeExpect = 76;
     if (age <= lifeExpect) {
       let leftOnEarth = (lifeExpect - age);
-      return (Math.floor(leftOnEarth / 1.881) + "more years to live on" + planet);
+      return (Math.floor(leftOnEarth / 1.881) + " more years to live on " + planet);
     } else {
       return "your dead, try to be younger next time.";
     }
@@ -284,7 +284,7 @@ yearsOnPlanet(age,sex,continent,planet) {
     const lifeExpect = 81;
     if (age <= lifeExpect) {
       let leftOnEarth = (lifeExpect - age);
-      return (Math.floor(leftOnEarth / 1.881) + "more years to live on" + planet);
+      return (Math.floor(leftOnEarth / 1.881) + " more years to live on " + planet);
     } else {
       return "your dead, try to be younger next time.";
     }
@@ -295,7 +295,7 @@ yearsOnPlanet(age,sex,continent,planet) {
     const lifeExpect = 73;
     if (age <= lifeExpect) {
       let leftOnEarth = (lifeExpect - age);
-      return (Math.floor(leftOnEarth / 1.881) + "more years to live on" + planet);
+      return (Math.floor(leftOnEarth / 1.881) + " more years to live on " + planet);
     } else {
       return "your dead, try to be younger next time.";
     }
@@ -303,7 +303,7 @@ yearsOnPlanet(age,sex,continent,planet) {
     const lifeExpect = 79;
     if (age <= lifeExpect) {
       let leftOnEarth = (lifeExpect - age);
-      return (Math.floor(leftOnEarth / 1.881) + "more years to live on" + planet);
+      return (Math.floor(leftOnEarth / 1.881) + " more years to live on " + planet);
     } else {
       return "your dead, try to be younger next time.";
     }
@@ -314,7 +314,7 @@ yearsOnPlanet(age,sex,continent,planet) {
     const lifeExpect = 71;
     if (age <= lifeExpect) {
       let leftOnEarth = (lifeExpect - age);
-      return (Math.floor(leftOnEarth / 1.881) + "more years to live on" + planet);
+      return (Math.floor(leftOnEarth / 1.881) + " more years to live on " + planet);
     } else {
       return "your dead, try to be younger next time.";
     }
@@ -322,7 +322,7 @@ yearsOnPlanet(age,sex,continent,planet) {
     const lifeExpect = 74;
     if (age <= lifeExpect) {
       let leftOnEarth = (lifeExpect - age);
-      return (Math.floor(leftOnEarth / 1.881) + "more years to live on" + planet);
+      return (Math.floor(leftOnEarth / 1.881) + " more years to live on " + planet);
     } else {
       return "your dead, try to be younger next time.";
     }
@@ -333,7 +333,7 @@ yearsOnPlanet(age,sex,continent,planet) {
     const lifeExpect = 61;
     if (age <= lifeExpect) {
       let leftOnEarth = (lifeExpect - age);
-      return (Math.floor(leftOnEarth / 1.881) + "more years to live on" + planet);
+      return (Math.floor(leftOnEarth / 1.881) + " more years to live on " + planet);
     } else {
       return "your dead, try to be younger next time.";
     }
@@ -341,7 +341,7 @@ yearsOnPlanet(age,sex,continent,planet) {
     const lifeExpect = 64;
     if (age <= lifeExpect) {
       let leftOnEarth = (lifeExpect - age);
-      return (Math.floor(leftOnEarth / 1.881) + "more years to live on" + planet);
+      return (Math.floor(leftOnEarth / 1.881) + " more years to live on " + planet);
     } else {
       return "your dead, try to be younger next time.";
     }
@@ -352,7 +352,7 @@ yearsOnPlanet(age,sex,continent,planet) {
     const lifeExpect = 75;
     if (age <= lifeExpect) {
       let leftOnEarth = (lifeExpect - age);
-      return (Math.floor(leftOnEarth / 1.881) + "more years to live on" + planet);
+      return (Math.floor(leftOnEarth / 1.881) + " more years to live on " + planet);
     } else {
       return "your dead, try to be younger next time.";
     }
@@ -360,7 +360,7 @@ yearsOnPlanet(age,sex,continent,planet) {
     const lifeExpect = 81;
     if (age <= lifeExpect) {
       let leftOnEarth = (lifeExpect - age);
-      return (Math.floor(leftOnEarth / 1.881) + "more years to live on" + planet);
+      return (Math.floor(leftOnEarth / 1.881) + " more years to live on " + planet);
     } else {
       return "your dead, try to be younger next time.";
     }
@@ -371,7 +371,7 @@ yearsOnPlanet(age,sex,continent,planet) {
     const lifeExpect = 75;
     if (age <= lifeExpect) {
       let leftOnEarth = (lifeExpect - age);
-      return (Math.floor(leftOnEarth / 1.881) + "more years to live on" + planet);
+      return (Math.floor(leftOnEarth / 1.881) + " more years to live on " + planet);
     } else {
       return "your dead, try to be younger next time.";
     }
@@ -379,7 +379,7 @@ yearsOnPlanet(age,sex,continent,planet) {
     const lifeExpect = 79;
     if (age <= lifeExpect) {
       let leftOnEarth = (lifeExpect - age);
-      return (Math.floor(leftOnEarth / 1.881) + "more years to live on" + planet);
+      return (Math.floor(leftOnEarth / 1.881) + " more years to live on " + planet);
     } else {
       return "your dead, try to be younger next time.";
     }
@@ -391,7 +391,7 @@ yearsOnPlanet(age,sex,continent,planet) {
     const lifeExpect = 76;
     if (age <= lifeExpect) {
       let leftOnEarth = (lifeExpect - age);
-      return (Math.floor(leftOnEarth / 1.881) + "more years to live on" + planet);
+      return (Math.floor(leftOnEarth / 1.881) + " more years to live on " + planet);
     } else {
       return "your dead, try to be younger next time.";
     }
@@ -399,7 +399,7 @@ yearsOnPlanet(age,sex,continent,planet) {
     const lifeExpect = 81;
     if (age <= lifeExpect) {
       let leftOnEarth = (lifeExpect - age);
-      return (Math.floor(leftOnEarth / 1.881) + "more years to live on" + planet);
+      return (Math.floor(leftOnEarth / 1.881) + " more years to live on " + planet);
     } else {
       return "your dead, try to be younger next time.";
     }
@@ -410,7 +410,7 @@ yearsOnPlanet(age,sex,continent,planet) {
     const lifeExpect = 73;
     if (age <= lifeExpect) {
       let leftOnEarth = (lifeExpect - age);
-      return (Math.floor(leftOnEarth / 1.881) + "more years to live on" + planet);
+      return (Math.floor(leftOnEarth / 1.881) + " more years to live on " + planet);
     } else {
       return "your dead, try to be younger next time.";
     }
@@ -418,7 +418,7 @@ yearsOnPlanet(age,sex,continent,planet) {
     const lifeExpect = 79;
     if (age <= lifeExpect) {
       let leftOnEarth = (lifeExpect - age);
-      return (Math.floor(leftOnEarth / 1.881) + "more years to live on" + planet);
+      return (Math.floor(leftOnEarth / 1.881) + " more years to live on " + planet);
     } else {
       return "your dead, try to be younger next time.";
     }
@@ -429,7 +429,7 @@ yearsOnPlanet(age,sex,continent,planet) {
     const lifeExpect = 71;
     if (age <= lifeExpect) {
       let leftOnEarth = (lifeExpect - age);
-      return (Math.floor(leftOnEarth / 1.881) + "more years to live on" + planet);
+      return (Math.floor(leftOnEarth / 1.881) + " more years to live on " + planet);
     } else {
       return "your dead, try to be younger next time.";
     }
@@ -437,7 +437,7 @@ yearsOnPlanet(age,sex,continent,planet) {
     const lifeExpect = 74;
     if (age <= lifeExpect) {
       let leftOnEarth = (lifeExpect - age);
-      return (Math.floor(leftOnEarth / 1.881) + "more years to live on" + planet);
+      return (Math.floor(leftOnEarth / 1.881) + " more years to live on " + planet);
     } else {
       return "your dead, try to be younger next time.";
     }
@@ -448,7 +448,7 @@ yearsOnPlanet(age,sex,continent,planet) {
     const lifeExpect = 61;
     if (age <= lifeExpect) {
       let leftOnEarth = (lifeExpect - age);
-      return (Math.floor(leftOnEarth / 1.881) + "more years to live on" + planet);
+      return (Math.floor(leftOnEarth / 1.881) + " more years to live on " + planet);
     } else {
       return "your dead, try to be younger next time.";
     }
@@ -456,7 +456,7 @@ yearsOnPlanet(age,sex,continent,planet) {
     const lifeExpect = 64;
     if (age <= lifeExpect) {
       let leftOnEarth = (lifeExpect - age);
-      return (Math.floor(leftOnEarth / 1.881) + "more years to live on" + planet);
+      return (Math.floor(leftOnEarth / 1.881) + " more years to live on " + planet);
     } else {
       return "your dead, try to be younger next time.";
     }
@@ -467,7 +467,7 @@ yearsOnPlanet(age,sex,continent,planet) {
     const lifeExpect = 75;
     if (age <= lifeExpect) {
       let leftOnEarth = (lifeExpect - age);
-      return (Math.floor(leftOnEarth / 1.881) + "more years to live on" + planet);
+      return (Math.floor(leftOnEarth / 1.881) + " more years to live on " + planet);
     } else {
       return "your dead, try to be younger next time.";
     }
@@ -475,7 +475,7 @@ yearsOnPlanet(age,sex,continent,planet) {
     const lifeExpect = 81;
     if (age <= lifeExpect) {
       let leftOnEarth = (lifeExpect - age);
-      return (Math.floor(leftOnEarth / 1.881) + "more years to live on" + planet);
+      return (Math.floor(leftOnEarth / 1.881) + " more years to live on " + planet);
     } else {
       return "your dead, try to be younger next time.";
     }
@@ -486,7 +486,7 @@ yearsOnPlanet(age,sex,continent,planet) {
     const lifeExpect = 75;
     if (age <= lifeExpect) {
       let leftOnEarth = (lifeExpect - age);
-      return (Math.floor(leftOnEarth / 1.881) + "more years to live on" + planet);
+      return (Math.floor(leftOnEarth / 1.881) + " more years to live on " + planet);
     } else {
       return "your dead, try to be younger next time.";
     }
@@ -494,7 +494,7 @@ yearsOnPlanet(age,sex,continent,planet) {
     const lifeExpect = 79;
     if (age <= lifeExpect) {
       let leftOnEarth = (lifeExpect - age);
-      return (Math.floor(leftOnEarth / 1.881) + "more years to live on" + planet);
+      return (Math.floor(leftOnEarth / 1.881) + " more years to live on " + planet);
     } else {
       return "your dead, try to be younger next time.";
     }
@@ -506,7 +506,7 @@ yearsOnPlanet(age,sex,continent,planet) {
     const lifeExpect = 76;
     if (age <= lifeExpect) {
       let leftOnEarth = (lifeExpect - age);
-      return (Math.floor(leftOnEarth / 11.86) + "more years to live on" + planet);
+      return (Math.floor(leftOnEarth / 11.86) + " more years to live on " + planet);
     } else {
       return "your dead, try to be younger next time.";
     }
@@ -514,7 +514,7 @@ yearsOnPlanet(age,sex,continent,planet) {
     const lifeExpect = 81;
     if (age <= lifeExpect) {
       let leftOnEarth = (lifeExpect - age);
-      return (Math.floor(leftOnEarth / 11.86) + "more years to live on" + planet);
+      return (Math.floor(leftOnEarth / 11.86) + " more years to live on " + planet);
     } else {
       return "your dead, try to be younger next time.";
     }
@@ -525,7 +525,7 @@ yearsOnPlanet(age,sex,continent,planet) {
     const lifeExpect = 73;
     if (age <= lifeExpect) {
       let leftOnEarth = (lifeExpect - age);
-      return (Math.floor(leftOnEarth / 11.86) + "more years to live on" + planet);
+      return (Math.floor(leftOnEarth / 11.86) + " more years to live on " + planet);
     } else {
       return "your dead, try to be younger next time.";
     }
@@ -533,7 +533,7 @@ yearsOnPlanet(age,sex,continent,planet) {
     const lifeExpect = 79;
     if (age <= lifeExpect) {
       let leftOnEarth = (lifeExpect - age);
-      return (Math.floor(leftOnEarth / 11.86) + "more years to live on" + planet);
+      return (Math.floor(leftOnEarth / 11.86) + " more years to live on " + planet);
     } else {
       return "your dead, try to be younger next time.";
     }
@@ -544,7 +544,7 @@ yearsOnPlanet(age,sex,continent,planet) {
     const lifeExpect = 71;
     if (age <= lifeExpect) {
       let leftOnEarth = (lifeExpect - age);
-      return (Math.floor(leftOnEarth / 11.86) + "more years to live on" + planet);
+      return (Math.floor(leftOnEarth / 11.86) + " more years to live on " + planet);
     } else {
       return "your dead, try to be younger next time.";
     }
@@ -552,7 +552,7 @@ yearsOnPlanet(age,sex,continent,planet) {
     const lifeExpect = 74;
     if (age <= lifeExpect) {
       let leftOnEarth = (lifeExpect - age);
-      return (Math.floor(leftOnEarth / 11.86) + "more years to live on" + planet);
+      return (Math.floor(leftOnEarth / 11.86) + " more years to live on " + planet);
     } else {
       return "your dead, try to be younger next time.";
     }
@@ -563,7 +563,7 @@ yearsOnPlanet(age,sex,continent,planet) {
     const lifeExpect = 61;
     if (age <= lifeExpect) {
       let leftOnEarth = (lifeExpect - age);
-      return (Math.floor(leftOnEarth / 11.86) + "more years to live on" + planet);
+      return (Math.floor(leftOnEarth / 11.86) + " more years to live on " + planet);
     } else {
       return "your dead, try to be younger next time.";
     }
@@ -571,7 +571,7 @@ yearsOnPlanet(age,sex,continent,planet) {
     const lifeExpect = 64;
     if (age <= lifeExpect) {
       let leftOnEarth = (lifeExpect - age);
-      return (Math.floor(leftOnEarth / 11.86) + "more years to live on" + planet);
+      return (Math.floor(leftOnEarth / 11.86) + " more years to live on " + planet);
     } else {
       return "your dead, try to be younger next time.";
     }
@@ -582,7 +582,7 @@ yearsOnPlanet(age,sex,continent,planet) {
     const lifeExpect = 75;
     if (age <= lifeExpect) {
       let leftOnEarth = (lifeExpect - age);
-      return (Math.floor(leftOnEarth / 11.86) + "more years to live on" + planet);
+      return (Math.floor(leftOnEarth / 11.86) + " more years to live on " + planet);
     } else {
       return "your dead, try to be younger next time.";
     }
@@ -590,7 +590,7 @@ yearsOnPlanet(age,sex,continent,planet) {
     const lifeExpect = 81;
     if (age <= lifeExpect) {
       let leftOnEarth = (lifeExpect - age);
-      return (Math.floor(leftOnEarth / 11.86) + "more years to live on" + planet);
+      return (Math.floor(leftOnEarth / 11.86) + " more years to live on " + planet);
     } else {
       return "your dead, try to be younger next time.";
     }
@@ -601,7 +601,7 @@ yearsOnPlanet(age,sex,continent,planet) {
     const lifeExpect = 75;
     if (age <= lifeExpect) {
       let leftOnEarth = (lifeExpect - age);
-      return (Math.floor(leftOnEarth / 11.86) + "more years to live on" + planet);
+      return (Math.floor(leftOnEarth / 11.86) + " more years to live on " + planet);
     } else {
       return "your dead, try to be younger next time.";
     }
@@ -609,7 +609,7 @@ yearsOnPlanet(age,sex,continent,planet) {
     const lifeExpect = 79;
     if (age <= lifeExpect) {
       let leftOnEarth = (lifeExpect - age);
-      return (Math.floor(leftOnEarth / 11.86) + "more years to live on" + planet);
+      return (Math.floor(leftOnEarth / 11.86) + " more years to live on " + planet);
     } else {
       return "your dead, try to be younger next time.";
       }

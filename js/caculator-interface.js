@@ -59,7 +59,7 @@ import { Calculator } from './../js/calculator.js';
       $('#solution-5').text(output + " year's old");
     });
   });
-
+  // years on jupitar
   $(function() {
     $('#y-on-j').submit(function(event) {
       event.preventDefault();
@@ -67,5 +67,18 @@ import { Calculator } from './../js/calculator.js';
       let newCalculator = new Calculator();
       let output = newCalculator.yearOnJupiter(ageInYear);
       $('#solution-6').text(output + " year's old");
+    });
+  });
+  // years left on planet
+  $(function() {
+    $('#y-left-alive').submit(function(event) {
+      event.preventDefault();
+      let ageInYear = $('#earthAge').val();
+      let sex = $('#sex').val();
+      let region = $('#region').val();
+      let planet = $('#planet').val();
+      let newCalculator = new Calculator();
+      let output = newCalculator.yearOnPlanet(ageInYear,sex,region,planet);
+      $('#solution-7').text(output);
     });
   });

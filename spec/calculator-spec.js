@@ -34,4 +34,13 @@ describe('CalculatorTests', function() {
     expect(calculator.yearOnJupiter(19)).toEqual(1);
   });
 
+  it('should calculate how long someone has left to live in each planet based on location and sex', function() {
+    let calculator = new Calculator();
+    let age = 19;
+    let sex = "male";
+    let continent = "North America";
+    let planet = "Mercury";
+    expect(calculator.yearOnPlanet(age,sex,continent,planet)).toEqual(236 + " more years to live on " + planet);
+  });
+
 });
