@@ -59,3 +59,13 @@ import { Calculator } from './../js/calculator.js';
       $('#solution-5').text(output + " year's old");
     });
   });
+
+  $(function() {
+    $('#y-on-j').submit(function(event) {
+      event.preventDefault();
+      let ageInYear = $('#jupiterAge').val();
+      let newCalculator = new Calculator();
+      let output = newCalculator.yearOnJupiter(ageInYear);
+      $('#solution-6').text(output + " year's old");
+    });
+  });

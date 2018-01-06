@@ -29,4 +29,9 @@ describe('CalculatorTests', function() {
     expect(calculator.yearOnMars(19)).toEqual(10);
   });
 
+  it('should calculate the age of someone into Jovian years', function() {
+    let calculator = new Calculator();
+    expect(calculator.yearOnJupiter(19)).toEqual(1);
+  });
+
 });

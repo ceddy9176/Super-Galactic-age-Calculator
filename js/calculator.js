@@ -32,7 +32,7 @@ export class Calculator {
     return marsAge;
   }
 
-  yearsOnJupiter(age) {
+  yearOnJupiter(age) {
   let jupiterAge = (Math.floor(age / 11.86 ));
   return jupiterAge;
 }
