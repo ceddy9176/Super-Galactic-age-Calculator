@@ -1,0 +1,44 @@
+body {
+  background-image: url("../img/wallpaper.jpg");
+  background-size: cover;
+  color: white;
+}
+
+h1 {
+  text-align: center;
+}
+
+input, select {
+  color: black;
+}
+
+.col-md-4 {
+  padding-left: 0;
+}
+
+
+.solution {
+  font-size: 30px;
+  text-align: center;
+  margin-top: 5%;
+}
+
+.btn-success {
+  background-color: slategray;
+}
+.btn-success:hover {
+  background-color: #363d44;
+  border: #363d44;
+}
+.btn-success:active:focus {
+  background-color: #363d44;
+  border: #363d44;
+  outline: 0;
+
+}
+
+.btn-success:focus {
+  background-color: #363d44 ;
+  border: #363d44;
+  outline: 0;
+}
