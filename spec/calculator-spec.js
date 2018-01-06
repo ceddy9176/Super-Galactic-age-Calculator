@@ -43,4 +43,13 @@ describe('CalculatorTests', function() {
     expect(calculator.yearOnPlanet(age,sex,continent,planet)).toEqual(236 + " more years to live on " + planet);
   });
 
+  it('should notify the user if their age is over the estimated life expectancy', function() {
+    let calculator = new Calculator();
+    let age = 100;
+    let sex = "male";
+    let continent = "North America";
+    let planet = "Jupiter";
+    expect(calculator.yearOnPlanet(age,sex,continent,planet)).toEqual("your dead, try to be younger next time.");
+  });
+
 });
