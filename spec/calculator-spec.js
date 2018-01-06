@@ -24,4 +24,9 @@ describe('CalculatorTests', function() {
     expect(calculator.yearOnVenus(19)).toEqual(30);
   });
 
+  it('should calculate the age of someone into Martian years', function() {
+    let calculator = new Calculator();
+    expect(calculator.yearOnMars(19)).toEqual(10);
+  });
+
 });

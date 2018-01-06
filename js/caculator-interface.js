@@ -49,3 +49,13 @@ import { Calculator } from './../js/calculator.js';
       $('#solution-4').text(output + " year's old");
     });
   });
+  // years on mars
+  $(function() {
+    $('#y-on-mars').submit(function(event) {
+      event.preventDefault();
+      let ageInYear = $('#marsAge').val();
+      let newCalculator = new Calculator();
+      let output = newCalculator.yearOnMars(ageInYear);
+      $('#solution-5').text(output + " year's old");
+    });
+  });
