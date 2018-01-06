@@ -19,4 +19,9 @@ describe('CalculatorTests', function() {
     expect(calculator.yearOnMercury(19)).toEqual(78);
   });
 
+  it('should calculate the age of someone into Venusian years', function() {
+    let calculator = new Calculator();
+    expect(calculator.yearOnVenus(19)).toEqual(30);
+  });
+
 });

@@ -39,3 +39,13 @@ import { Calculator } from './../js/calculator.js';
       $('#solution-3').text(output + " year's old");
       });
     });
+    //years on venus
+  $(function() {
+    $('#y-on-v').submit(function(event) {
+      event.preventDefault();
+      let ageInYear = $('#venusAge').val();
+      let newCalculator = new Calculator();
+      let output = newCalculator.yearOnVenus(ageInYear);
+      $('#solution-4').text(output + " year's old");
+    });
+  });
