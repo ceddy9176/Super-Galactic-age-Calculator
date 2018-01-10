@@ -4,9 +4,9 @@ import { Calculator } from './../js/calculator.js';
   $(function() {
     $('#y-to-s').submit(function(event) {
       event.preventDefault();
-      let ageInYear = $('#ageSeconds').val();
-      let newCalculator = new Calculator();
-      let output = newCalculator.ageInSeconds(ageInYear);
+      const ageInYear = $('#ageSeconds').val();
+      const newCalculator = new Calculator();
+      const output = newCalculator.ageInSeconds(ageInYear);
       $('#solution-1').text(output + " second's");
     });
   });
@@ -14,18 +14,18 @@ import { Calculator } from './../js/calculator.js';
   $(function() {
     $('#twoDatesSeconds').submit(function(event) {
       event.preventDefault();
-      let year1 = $('#yearOne').val();
-      let month1 = $('#monthOne').val();
-      let day1 = $('#dayOne').val();
-      let date1 = [year1, month1, day1];
+      const year1 = $('#yearOne').val();
+      const month1 = $('#monthOne').val();
+      const day1 = $('#dayOne').val();
+      const date1 = [year1, month1, day1];
 
-      let year2 = $('#yearTwo').val();
-      let month2 = $('#monthTwo').val();
-      let day2 = $('#dayTwo').val();
-      let date2 = [year2, month2, day2];
+      const year2 = $('#yearTwo').val();
+      const month2 = $('#monthTwo').val();
+      const day2 = $('#dayTwo').val();
+      const date2 = [year2, month2, day2];
 
-      let newCalculator = new Calculator();
-      let output = newCalculator.twoDatesSeconds(date2, date1);
+      const newCalculator = new Calculator();
+      const output = newCalculator.twoDatesSeconds(date2, date1);
       $('#solution-2').text(output + " second's");
     });
   });
@@ -33,9 +33,9 @@ import { Calculator } from './../js/calculator.js';
   $(function() {
     $('#y-on-m').submit(function(event) {
       event.preventDefault();
-      let ageInYear = $('#mercuryAge').val();
-      let newCalculator = new Calculator();
-      let output = newCalculator.yearOnMercury(ageInYear);
+      const ageInYear = $('#mercuryAge').val();
+      const newCalculator = new Calculator();
+      const output = newCalculator.yearOnMercury(ageInYear);
       $('#solution-3').text(output + " year's old");
       });
     });
@@ -43,9 +43,9 @@ import { Calculator } from './../js/calculator.js';
   $(function() {
     $('#y-on-v').submit(function(event) {
       event.preventDefault();
-      let ageInYear = $('#venusAge').val();
-      let newCalculator = new Calculator();
-      let output = newCalculator.yearOnVenus(ageInYear);
+      const ageInYear = $('#venusAge').val();
+      const newCalculator = new Calculator();
+      const output = newCalculator.yearOnVenus(ageInYear);
       $('#solution-4').text(output + " year's old");
     });
   });
@@ -53,9 +53,9 @@ import { Calculator } from './../js/calculator.js';
   $(function() {
     $('#y-on-mars').submit(function(event) {
       event.preventDefault();
-      let ageInYear = $('#marsAge').val();
-      let newCalculator = new Calculator();
-      let output = newCalculator.yearOnMars(ageInYear);
+      const ageInYear = $('#marsAge').val();
+      const newCalculator = new Calculator();
+      const output = newCalculator.yearOnMars(ageInYear);
       $('#solution-5').text(output + " year's old");
     });
   });
@@ -63,9 +63,9 @@ import { Calculator } from './../js/calculator.js';
   $(function() {
     $('#y-on-j').submit(function(event) {
       event.preventDefault();
-      let ageInYear = $('#jupiterAge').val();
-      let newCalculator = new Calculator();
-      let output = newCalculator.yearOnJupiter(ageInYear);
+      const ageInYear = $('#jupiterAge').val();
+      const newCalculator = new Calculator();
+      const output = newCalculator.yearOnJupiter(ageInYear);
       $('#solution-6').text(output + " year's old");
     });
   });
@@ -73,12 +73,12 @@ import { Calculator } from './../js/calculator.js';
   $(function() {
     $('#y-left-alive').submit(function(event) {
       event.preventDefault();
-      let ageInYear = $('#earthAge').val();
-      let sex = $('#sex').val();
-      let region = $('#region').val();
-      let planet = $('#planet').val();
-      let newCalculator = new Calculator();
-      let output = newCalculator.yearOnPlanet(ageInYear,sex,region,planet);
+      const ageInYear = $('#earthAge').val();
+      const sex = $('#sex').val();
+      const region = $('#region').val();
+      const planet = $('#planet').val();
+      const newCalculator = new Calculator();
+      const output = newCalculator.yearOnPlanet(ageInYear,sex,region,planet);
       $('#solution-7').text(output);
     });
   });
